@@ -1,0 +1,20 @@
+body{
+    background: #333;
+    color: white;
+}
+.header{
+    /* margin-left: auto; */
+    text-align: center;
+}
+.grid{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+.anim{
+    transition-property: transform;
+    transition-duration: 1s;
+    transform: rotateY(180deg);
+}
